@@ -63,7 +63,7 @@ int main() {
     unsigned int face_vertices[] = {
             0, 1, 2
     };
-1
+
     gpgpu::ElementArrayBuffer faces;
     faces.data(3, 3, face_vertices);
 
